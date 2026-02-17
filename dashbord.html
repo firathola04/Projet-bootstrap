@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Marketing Social Media</title>
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+</head>
+<body class="bg-light p-3 p-lg-4">
+
+    <div class="container-fluid px-0 px-lg-3">
+        <!-- En-tête -->
+        <div class="d-flex flex-column flex-md-row justify-content-between align-items-md-center mb-4 gap-3">
+            <div>
+                <h1 class="h2 fw-bold text-dark mb-1">
+                    <i class="bi bi-bar-chart-line me-2 text-primary"></i>
+                    Social Media Dashboard
+                </h1>
+                <p class="text-muted mb-0">Suivi des performances marketing</p>
+            </div>
+            <div class="d-flex align-items-center bg-white rounded-4 p-3 shadow-sm">
+                <i class="bi bi-calendar3 me-2 text-muted"></i>
+                <span class="fw-medium">1 Fév - 14 Fév 2026</span>
+                <i class="bi bi-chevron-down ms-2 text-muted"></i>
+            </div>
+        </div>
+        
+        <!-- Cartes KPIs -->
+        <div class="row g-4 mb-4">
+            <!-- Total Likes -->
+            <div class="col-sm-6 col-xl-3">
+                <div class="card border-0 shadow-sm h-100">
+                    <div class="card-body">
+                        <div class="d-flex align-items-center mb-3">
+                            <div class="bg-primary bg-opacity-10 p-3 rounded-3 me-3">
+                                <i class="bi bi-heart-fill text-primary fs-3"></i>
+                            </div>
+                            <div>
+                                <div class="text-muted text-uppercase small fw-semibold">Total Likes</div>
+                                <div class="display-6 fw-bold text-dark">284.5K</div>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <span class="badge bg-success-subtle text-success rounded-pill me-2">
+                                <i class="bi bi-arrow-up-short"></i>12%
+                            </span>
+                            <span class="text-muted small">vs période précédente</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Total Partages -->
+            <div class="col-sm-6 col-xl-3">
+                <div class="card border-0 shadow-sm h-100">
+                    <div class="card-body">
+                        <div class="d-flex align-items-center mb-3">
+                            <div class="bg-success bg-opacity-10 p-3 rounded-3 me-3">
+                                <i class="bi bi-share-fill text-success fs-3"></i>
+                            </div>
+                            <div>
+                                <div class="text-muted text-uppercase small fw-semibold">Total Partages</div>
+                                <div class="display-6 fw-bold text-dark">89.2K</div>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <span class="badge bg-success-subtle text-success rounded-pill me-2">
+                                <i class="bi bi-arrow-up-short"></i>8%
+                            </span>
+                            <span class="text-muted small">vs période précédente</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Total Commentaires -->
+            <div class="col-sm-6 col-xl-3">
+                <div class="card border-0 shadow-sm h-100">
+                    <div class="card-body">
+                        <div class="d-flex align-items-center mb-3">
+                            <div class="bg-warning bg-opacity-10 p-3 rounded-3 me-3">
+                                <i class="bi bi-chat-fill text-warning fs-3"></i>
+                            </div>
+                            <div>
+                                <div class="text-muted text-uppercase small fw-semibold">Total Commentaires</div>
+                                <div class="display-6 fw-bold text-dark">42.1K</div>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <span class="badge bg-danger-subtle text-danger rounded-pill me-2">
+                                <i class="bi bi-arrow-down-short"></i>3%
+                            </span>
+                            <span class="text-muted small">vs période précédente</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Taux d'engagement -->
+            <div class="col-sm-6 col-xl-3">
+                <div class="card border-0 shadow-sm h-100">
+                    <div class="card-body">
+                        <div class="d-flex align-items-center mb-3">
+                            <div class="bg-info bg-opacity-10 p-3 rounded-3 me-3">
+                                <i class="bi bi-graph-up-arrow text-info fs-3"></i>
+                            </div>
+                            <div>
+                                <div class="text-muted text-uppercase small fw-semibold">Taux d'engagement</div>
+                                <div class="display-6 fw-bold text-dark">4.8%</div>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <span class="badge bg-success-subtle text-success rounded-pill me-2">
+                                <i class="bi bi-arrow-up-short"></i>0.5%
+                            </span>
+                            <span class="text-muted small">points</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Graphiques principaux -->
+        <div class="row g-4 mb-4">
+            <!-- Répartition par plateforme -->
+            <div class="col-lg-7">
+                <div class="card border-0 shadow-sm h-100">
+                    <div class="card-body">
+                        <h5 class="fw-semibold mb-4">
+                            <i class="bi bi-pie-chart me-2 text-primary"></i>
+                            Répartition des engagements par réseau
+                        </h5>
+                        
+                        <!-- Version simplifiée sans graphique circulaire CSS -->
+                        <div class="row align-items-center">
+                            <div class="col-md-5">
+                                <div class="text-center mb-4 mb-md-0">
+                                    <div class="d-inline-block position-relative">
+                                        <!-- Simulation de camembert avec des cercles Bootstrap -->
+                                        <div class="d-flex justify-content-center">
+                                            <div class="rounded-circle bg-primary" style="width: 20px; height: 20px;"></div>
+                                            <div class="rounded-circle bg-danger" style="width: 20px; height: 20px;"></div>
+                                            <div class="rounded-circle bg-info" style="width: 20px; height: 20px;"></div>
+                                            <div class="rounded-circle bg-secondary" style="width: 20px; height: 20px;"></div>
+                                        </div>
+                                        <div class="mt-3">
+                                            <span class="badge bg-primary">40% Facebook</span><br>
+                                            <span class="badge bg-danger">30% Instagram</span><br>
+                                            <span class="badge bg-info">15% Twitter</span><br>
+                                            <span class="badge bg-secondary">15% LinkedIn</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-7">
+                                <div class="d-flex flex-column gap-3">
+                                    <!-- Facebook -->
+                                    <div>
+                                        <div class="d-flex justify-content-between mb-1">
+                                            <span><i class="bi bi-facebook text-primary me-2"></i>Facebook</span>
+                                            <span class="fw-bold">40%</span>
+                                        </div>
+                                        <div class="progress" style="height: 8px;">
+                                            <div class="progress-bar bg-primary" style="width: 40%"></div>
+                                        </div>
+                                    </div>
+                                    
+                                    <!-- Instagram -->  
+                                    <div>
+                                        <div class="d-flex justify-content-between mb-1">
+                                            <span><i class="bi bi-instagram text-danger me-2"></i>Instagram</span>
+                                            <span class="fw-bold">30%</span>
+                                        </div>
+                                        <div class="progress" style="height: 8px;">
+                                            <div class="progress-bar bg-danger" style="width: 30%"></div>
+                                        </div>
+                                    </div>
+                                    
+                                    <!-- Twitter -->
+                                    <div>
+                                        <div class="d-flex justify-content-between mb-1">
+                                            <span><i class="bi bi-twitter-x text-info me-2"></i>Twitter</span>
+                                            <span class="fw-bold">15%</span>
+                                        </div>
+                                        <div class="progress" style="height: 8px;">
+                                            <div class="progress-bar bg-info" style="width: 15%"></div>
+                                        </div>
+                                    </div>
+                                    
+                                    <!-- LinkedIn -->
+                                    <div>
+                                        <div class="d-flex justify-content-between mb-1">
+                                            <span><i class="bi bi-linkedin text-secondary me-2"></i>LinkedIn</span>
+                                            <span class="fw-bold">15%</span>
+                                        </div>
+                                        <div class="progress" style="height: 8px;">
+                                            <div class="progress-bar bg-secondary" style="width: 15%"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Performance par type d'engagement -->
+            <div class="col-lg-5">
+                <div class="card border-0 shadow-sm h-100">
+                    <div class="card-body">
+                        <h5 class="fw-semibold mb-4">
+                            <i class="bi bi-bar-chart me-2 text-primary"></i>
+                            Performance par type d'engagement
+                        </h5>
+                        
+                        <!-- Likes -->
+                        <div class="mb-4">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <div>
+                                    <i class="bi bi-heart-fill text-danger me-2"></i>
+                                    <span class="fw-medium">Likes</span>
+                                </div>
+                                <span class="fw-bold">284.5K</span>
+                            </div>
+                            <div class="progress" style="height: 8px;">
+                                <div class="progress-bar bg-primary" style="width: 100%"></div>
+                            </div>
+                        </div>
+                        
+                        <!-- Partages -->
+                        <div class="mb-4">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <div>
+                                    <i class="bi bi-share-fill text-success me-2"></i>
+                                    <span class="fw-medium">Partages</span>
+                                </div>
+                                <span class="fw-bold">89.2K</span>
+                            </div>
+                            <div class="progress" style="height: 8px;">
+                                <div class="progress-bar bg-danger" style="width: 65%"></div>
+                            </div>
+                        </div>
+                        
+                        <!-- Commentaires -->
+                        <div>
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <div>
+                                    <i class="bi bi-chat-fill text-warning me-2"></i>
+                                    <span class="fw-medium">Commentaires</span>
+                                </div>
+                                <span class="fw-bold">42.1K</span>
+                            </div>
+                            <div class="progress" style="height: 8px;">
+                                <div class="progress-bar bg-info" style="width: 35%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Tableau des plateformes -->
+        <div class="row g-4 mb-4">
+            <div class="col-12">
+                <div class="card border-0 shadow-sm">
+                    <div class="card-body">
+                        <h5 class="fw-semibold mb-4">
+                            <i class="bi bi-table me-2 text-primary"></i>
+                            Détail par plateforme
+                        </h5>
+                        
+                        <div class="table-responsive">
+                            <table class="table table-hover align-middle">
+                                <thead class="table-light">
+                                    <tr>
+                                        <th>Plateforme</th>
+                                        <th>Likes</th>
+                                        <th>Partages</th>
+                                        <th>Commentaires</th>
+                                        <th>Total engagements</th>
+                                        <th>Taux d'engagement</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <div class="d-flex align-items-center">
+                                                <div class="bg-primary text-white rounded-3 d-flex align-items-center justify-content-center me-3" style="width: 40px; height: 40px;">
+                                                    <i class="bi bi-facebook"></i>
+                                                </div>
+                                                <span class="fw-semibold">Facebook</span>
+                                            </div>
+                                        </td>
+                                        <td>124,350</td>
+                                        <td>32,180</td>
+                                        <td>15,420</td>
+                                        <td class="fw-bold">171,950</td>
+                                        <td><span class="badge bg-success-subtle text-success rounded-pill">4.2%</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="d-flex align-items-center">
+                                                <div class="bg-danger text-white rounded-3 d-flex align-items-center justify-content-center me-3" style="width: 40px; height: 40px;">
+                                                    <i class="bi bi-instagram"></i>
+                                                </div>
+                                                <span class="fw-semibold">Instagram</span>
+                                            </div>
+                                        </td>
+                                        <td>89,420</td>
+                                        <td>28,750</td>
+                                        <td>12,890</td>
+                                        <td class="fw-bold">131,060</td>
+                                        <td><span class="badge bg-success-subtle text-success rounded-pill">5.8%</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="d-flex align-items-center">
+                                                <div class="bg-info text-white rounded-3 d-flex align-items-center justify-content-center me-3" style="width: 40px; height: 40px;">
+                                                    <i class="bi bi-twitter-x"></i>
+                                                </div>
+                                                <span class="fw-semibold">Twitter</span>
+                                            </div>
+                                        </td>
+                                        <td>42,890</td>
+                                        <td>15,430</td>
+                                        <td>8,210</td>
+                                        <td class="fw-bold">66,530</td>
+                                        <td><span class="badge bg-success-subtle text-success rounded-pill">3.1%</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="d-flex align-items-center">
+                                                <div class="bg-secondary text-white rounded-3 d-flex align-items-center justify-content-center me-3" style="width: 40px; height: 40px;">
+                                                    <i class="bi bi-linkedin"></i>
+                                                </div>
+                                                <span class="fw-semibold">LinkedIn</span>
+                                            </div>
+                                        </td>
+                                        <td>27,840</td>
+                                        <td>12,840</td>
+                                        <td>5,580</td>
+                                        <td class="fw-bold">46,260</td>
+                                        <td><span class="badge bg-success-subtle text-success rounded-pill">2.9%</span></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Cartes additionnelles -->
+        <div class="row g-4">
+            <!-- Évolution des likes -->
+            <div class="col-md-4">
+                <div class="card border-0 shadow-sm h-100">
+                    <div class="card-body">
+                        <h5 class="fw-semibold mb-4">
+                            <i class="bi bi-graph-up me-2 text-primary"></i>
+                            Évolution des likes
+                        </h5>
+                        <div class="d-flex align-items-end gap-2" style="height: 80px;">
+                            <div class="flex-grow-1 bg-primary rounded-top" style="height: 60px;"></div>
+                            <div class="flex-grow-1 bg-danger rounded-top" style="height: 80px;"></div>
+                            <div class="flex-grow-1 bg-info rounded-top" style="height: 45px;"></div>
+                            <div class="flex-grow-1 bg-secondary rounded-top" style="height: 30px;"></div>
+                        </div>
+                        <div class="d-flex justify-content-between mt-3 text-muted small">
+                            <span>Facebook</span>
+                            <span>Instagram</span>
+                            <span>Twitter</span>
+                            <span>LinkedIn</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Meilleure performance -->
+            <div class="col-md-4">
+                <div class="card border-0 shadow-sm h-100">
+                    <div class="card-body">
+                        <h5 class="fw-semibold mb-4">
+                            <i class="bi bi-trophy me-2 text-primary"></i>
+                            Meilleure performance
+                        </h5>
+                        <div class="text-center">
+                            <div class="bg-danger text-white rounded-3 d-flex align-items-center justify-content-center mx-auto mb-3" style="width: 60px; height: 60px; font-size: 2rem;">
+                                <i class="bi bi-instagram"></i>
+                            </div>
+                            <h4 class="fw-bold">Instagram</h4>
+                            <p class="text-muted mb-3">5.8% taux d'engagement</p>
+                            <span class="badge bg-success-subtle text-success rounded-pill">
+                                <i class="bi bi-arrow-up-short"></i>23% vs moyenne
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Objectifs -->
+            <div class="col-md-4">
+                <div class="card border-0 shadow-sm h-100">
+                    <div class="card-body">
+                        <h5 class="fw-semibold mb-4">
+                            <i class="bi bi-bullseye me-2 text-primary"></i>
+                            Objectifs du mois
+                        </h5>
+                        
+                        <!-- Objectif Likes -->
+                        <div class="mb-3">
+                            <div class="d-flex justify-content-between small mb-1">
+                                <span class="fw-medium">Likes</span>
+                                <span>284.5K / 300K <span class="text-success fw-bold">(95%)</span></span>
+                            </div>
+                            <div class="progress" style="height: 8px;">
+                                <div class="progress-bar bg-primary" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        
+                        <!-- Objectif Partages -->
+                        <div class="mb-3">
+                            <div class="d-flex justify-content-between small mb-1">
+                                <span class="fw-medium">Partages</span>
+                                <span>89.2K / 100K <span class="text-warning fw-bold">(89%)</span></span>
+                            </div>
+                            <div class="progress" style="height: 8px;">
+                                <div class="progress-bar bg-danger" style="width: 89%"></div>
+                            </div>
+                        </div>
+                        
+                        <!-- Objectif Commentaires -->
+                        <div>
+                            <div class="d-flex justify-content-between small mb-1">
+                                <span class="fw-medium">Commentaires</span>
+                                <span>42.1K / 50K <span class="text-danger fw-bold">(84%)</span></span>
+                            </div>
+                            <div class="progress" style="height: 8px;">
+                                <div class="progress-bar bg-info" style="width: 84%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
